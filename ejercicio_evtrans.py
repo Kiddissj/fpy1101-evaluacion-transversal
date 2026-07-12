@@ -181,7 +181,7 @@ def menu():
             try:
                 minimo = int(input("Ingrese precio mínimo: "))
                 maximo = int(input("Ingrese precio máximo: "))
-                buscar_por_precio(minimo, maximo)
+                buscar_precio(minimo, maximo)
             except ValueError:
                 print("Debe ingresar números enteros.")
 
